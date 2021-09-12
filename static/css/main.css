@@ -557,7 +557,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   line-height: 1.25;
-  color: #1b2e4b;
+  color: #98b67a;
 }
 
 /* line 16, node_modules/bootstrap/scss/_type.scss */
@@ -17598,14 +17598,14 @@ a.badge-dark:focus, a.badge-dark.focus {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1;
-  color: #1b2e4b;
+  color: #98b67a;
   text-shadow: 0 1px 0 #fff;
   opacity: .5;
 }
 
 /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
 .close:hover {
-  color: #1b2e4b;
+  color: #98b67a;
   text-decoration: none;
 }
 
@@ -18785,7 +18785,7 @@ a.close.disabled {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
   font-size: 0.938rem;
-  color: #1b2e4b;
+  color: #98b67a;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-top-left-radius: calc(0.3rem - 1px);
@@ -20073,7 +20073,7 @@ footer a {
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 .btn-white:hover, .btn-white:focus {
   border-color: #8392a5;
-  color: #1b2e4b;
+  color: #98b67a;
 }
 
 /* line 114, src/assets/scss/components/_components.buttons.scss */
@@ -22691,7 +22691,7 @@ footer a {
 
 /* line 37, src/assets/scss/components/hero-section/_hero-8.scss */
 .counter-wrap li .single-counter h6 {
-  color: #1b2e4b;
+  color: #98b67a;
 }
 
 /* line 43, src/assets/scss/components/hero-section/_hero-8.scss */
@@ -23320,7 +23320,7 @@ footer a {
   line-height: 100px;
   border-radius: 50%;
   font-size: 38px;
-  color: #1b2e4b;
+  color: #98b67a;
   background: #fff;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
