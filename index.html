@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--favicon icon-->
-    <link rel="icon" href="static/img/melon.jpeg" type="image/png" sizes="16x16">
+    <link rel="icon" href="static/img/icon.png" type="image/png" sizes="16x16">
 
     <!--title-->
     <title>Melon</title>
@@ -15,6 +15,7 @@
 
     <!--build:css-->
     <link rel="stylesheet" id="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" id="stylesheet" href="static/css/melon.css">
     <!-- endbuild -->
 </head>
 
@@ -61,14 +62,21 @@
         
 
 <!--hero section start-->
-<section class="ptb-100 gray-light-bg">
+<section class="ptb-100 bg-image overflow-hidden" image-overlay="2">
+    <div class="background-image-wraper" id="banner-slider" style="background: url('static/img/banner1.jpg'); opacity: 1;"></div>
+            <!-- <div class="hero-bottom-shape-two" style="background: url('static/img/wave-shap.svg')no-repeat bottom center"></div> -->
+            <div class="effect-1 opacity-1">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 361.1 384.8" style="enable-background:new 0 0 361.1 384.8;" xml:space="preserve" class="injected-svg svg_img dark-color">
+                    <path d="M53.1,266.7C19.3,178-41,79.1,41.6,50.1S287.7-59.6,293.8,77.5c6.1,137.1,137.8,238,15.6,288.9 S86.8,355.4,53.1,266.7z"></path>
+                </svg>
+            </div>
     <div class="container">
         <div
             class="row align-items-center justify-content-lg-between justify-content-md-center justify-content-sm-center">
-            <div class="col-md-12 col-lg-6">
-                <div class="section-heading text-dark py-5">
-                    <h1 class="text-black font-weight-bold">NIGERIA'S FIRST DIGITAL SIGNAGE SOFTWARE</h1>
-                    <p>
+            <div class="col-md-12 col-lg-12">
+                <div class="section-heading text-dark py-5 mt-5 text-center">
+                    <h1 class="font-weight-bold mt-5" style="color: #e45d63;">NIGERIA'S FIRST DIGITAL SIGNAGE SOFTWARE</h1>
+                    <p class="text-white">
                         PUSH AND MANAGE CONTENT REMOTELY FROM ANY PART OF THE WORLD.
                     </p>
                     <div class="action-btns mt-4">
@@ -97,12 +105,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-7 col-sm-9 col-lg-6">
+            <!-- <div class="col-md-7 col-sm-9 col-lg-6">
                 <div class="hero-animation-img">
                     <img id="home-banner-img" class="img-fluid position-relative img-custom-width"
                         src="static/img/melon2.jpeg" alt="animation image">
                 </div>
-            </div>
+            </div> -->
         </div>
         <!--end of row-->
     </div>
@@ -361,7 +369,7 @@ Melon sign is the first local driven, user-friendly and dynamic digital signage 
                         <!-- <img src="assets/img/priching-img-1.png" alt="price" width="120" class="img-fluid"> -->
                     </div>
                     <div class="py-4 border-0 pricing-header">
-                        <div class="price text-center mb-0 monthly-price color-secondary" style="display: block;">$19<span>.99</span></div>
+                        <div class="price text-center mb-0 monthly-price color-secondary" style="display: block;">₦7,500<span>/monthly</span></div>
                     </div>
                     <div class="price-name">
                         <h5 class="mb-0">Starter</h5>
@@ -385,7 +393,7 @@ Melon sign is the first local driven, user-friendly and dynamic digital signage 
                         <!-- <img src="assets/img/priching-img-2.png" alt="price" width="120" class="img-fluid"> -->
                     </div>
                     <div class="py-4 border-0 pricing-header">
-                        <div class="price text-center mb-0 monthly-price color-secondary" style="display: block;">$49<span>.99</span></div>
+                        <div class="price text-center mb-0 monthly-price color-secondary" style="display: block;">₦10,500<span>/monthly</span></div>
                     </div>
                     <div class="price-name">
                         <h5 class="mb-0">Max</h5>
@@ -409,7 +417,7 @@ Melon sign is the first local driven, user-friendly and dynamic digital signage 
                         <!-- <img src="static/img/priching-img-3.png" alt="price" width="120" class="img-fluid"> -->
                     </div>
                     <div class="py-4 border-0 pricing-header">
-                        <div class="price text-center mb-0 monthly-price color-secondary" style="display: block;">$69<span>.99</span></div>
+                        <div class="price text-center mb-0 monthly-price color-secondary" style="display: block;">₦15,500<span>/monthly</span></div>
                     </div>
                     <div class="price-name">
                         <h5 class="mb-0">Pro</h5>
@@ -446,12 +454,69 @@ Melon sign is the first local driven, user-friendly and dynamic digital signage 
         <div class="row align-items-center justify-content-lg-between justify-content-md-center">
             <div class="col-md-5 col-lg-5">
                 <div class="about-content-right">
-                    <img src="static/img/melon.jpeg" alt="about us" class="img-fluid">
+                    <img src="static/img/booking.jpeg" alt="about us" class="img-fluid">
                     
                 </div>
             </div>
-            <div class="col-md-12 col-lg-6">
+            <div class="col-md-12 col-lg-7">
                 <div class="about-content-left section-heading">
+                    <div class="tabset">
+                        <!-- Tab 1 -->
+                        <input type="radio" name="tabset" id="tab1" aria-controls="all" checked>
+                        <label for="tab1">All Devices</label>
+                        <!-- Tab 2 -->
+                        <input type="radio" name="tabset" id="tab2" aria-controls="displays">
+                        <label for="tab2">Displays</label>
+                        <!-- Tab 3 -->
+                        <input type="radio" name="tabset" id="tab3" aria-controls="smart">
+                        <label for="tab3">Smart Boxes</label>
+                        
+                        <div class="tab-panels">
+                          <section id="all" class="tab-panel">
+                            <div class="row">
+                                <div class="col-4">
+                                  <img src="static/img/hdtv.png" class="img-fluid">
+                                </div>
+                                <div class="col-4">
+                                    <img src="static/img/led-hd.png" class="img-fluid">
+                                </div>
+                                <div class="col-4">
+                                    <img src="static/img/smart1.png" class="img-fluid">
+                                </div>
+                                <div class="col-4">
+                                    <img src="static/img/smart2.png" class="img-fluid">
+                                </div>
+                                <div class="col-4">
+                                    <img src="static/img/led2.png" class="img-fluid">
+                                </div>
+                            </div>
+                        </section>
+                          <section id="displays" class="tab-panel">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="static/img/hdtv.png" class="img-fluid">
+                                  </div>
+                                  <div class="col-4">
+                                      <img src="static/img/led-hd.png" class="img-fluid">
+                                  </div>
+                                <div class="col-4">
+                                    <img src="static/img/led2.png" class="img-fluid">
+                                </div>
+                            </div>
+                          </section>
+                          <section id="smart" class="tab-panel">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="static/img/smart1.png" class="img-fluid">
+                                </div>
+                                <div class="col-4">
+                                    <img src="static/img/smart2.png" class="img-fluid">
+                                </div>
+                            </div>
+                          </section>
+                        </div>
+                        
+                      </div>
                     
                     <div class="action-btns mt-4">
                         <a href="#!" class="btn btn-outline-brand-02">Need Demo?</a>
@@ -553,44 +618,15 @@ Melon sign is the first local driven, user-friendly and dynamic digital signage 
             <div class="col-12 pb-3 message-box d-none">
                 <div class="alert alert-danger"></div>
             </div>
-            <div class="col-md-12 col-lg-5 mb-5 mb-md-5 mb-sm-5 mb-lg-0">
-                <div class="contact-us-form gray-light-bg rounded p-5">
-                    <h4>Ready to get started?</h4>
-                    <form action="#" method="POST" id="contactForm" class="contact-us-form">
-                        <input type="hidden" name="csrfmiddlewaretoken" value="jMmR6G8NwjNUzuQHtPVdv9uQEybih4rffoR2KKPyd79GSfHiYcmNyp1hmXIUWeJW">
-                        <div class="form-row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="name" placeholder="Enter name"
-                                        required="required">
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" name="email" placeholder="Enter email"
-                                        required="required">
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <textarea name="message" id="message" class="form-control" rows="7" cols="25"
-                                        placeholder="Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 mt-3">
-                                <button type="submit" class="btn btn-brand-02" id="btnContactUs">
-                                    Send Message
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+            <div class="col-md-12 col-lg-7 mb-5 mb-md-5 mb-sm-5 mb-lg-0">
+                <div class="contact-us-form p-5">
+                    <img src="static/img/contat.jpeg" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-md-12 col-lg-6">
+            <div class="col-md-12 col-lg-5">
                 <div class="contact-us-content">
-                    <h2>Looking for a excellent Business idea?</h2>
-                    <p class="lead">Give us a call or drop by anytime, we endeavour to answer all enquiries within 24
-                        hours on business days.</p>
+                    <h2>Ready to deploy digital signage today?</h2>
+                    <p class="lead">Improve customer experience and drive business.</p>
 
                     
 
@@ -604,7 +640,7 @@ Melon sign is the first local driven, user-friendly and dynamic digital signage 
                             <div class="contact-text">
                                 <h5 class="mb-1">Company Location</h5>
                                 <p>
-                                    100 Yellow House, Mn Factory, United State, 13420
+                                    13, Kayode Taiwo Street, Magodo GRA, Lagos.
                                 </p>
                             </div>
                         </li>
@@ -676,5 +712,6 @@ Melon sign is the first local driven, user-friendly and dynamic digital signage 
     <script src="static/js/vendors/magnific-popup.min.js"></script>
     <script src="static/js/vendors/validator.min.js"></script>
     <script src="static/js/app.js"></script>
+    <script src="static/js/melon.js"></script>
 </body>
 </html>

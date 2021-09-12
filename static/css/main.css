@@ -3139,6 +3139,7 @@ table {
 /* line 2, src/assets/scss/objects/_objects.background-image.scss */
 .bg-image {
   position: relative;
+  height: 600px;
 }
 
 /* line 4, src/assets/scss/objects/_objects.background-image.scss */
