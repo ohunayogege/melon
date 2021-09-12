@@ -3385,7 +3385,7 @@ table {
 
 /* line 14, src/assets/scss/objects/_objects.background.scss */
 .primary-bg {
-  background: #7fa55a !important;
+  background: #e55c63 !important;
 }
 
 /* line 17, src/assets/scss/objects/_objects.background.scss */
@@ -16331,7 +16331,7 @@ input[type="button"].btn-block {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: #7fa55a;
+  background-color: #e75c63;
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
@@ -20114,7 +20114,7 @@ footer a {
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 .btn-brand-01:hover, .btn-brand-01:focus {
   background-color: #4618af;
-  border-color: #4618af;
+  border-color: #fff;
   color: #fff;
 }
 
@@ -20139,8 +20139,8 @@ footer a {
 
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 .btn-brand-02:hover, .btn-brand-02:focus {
-  background-color: #7fa55a;
-  border-color: #7fa55a;
+  background-color: #e75c63;
+  border-color: #e75c63;
   color: #fff;
 }
 
@@ -20184,14 +20184,14 @@ footer a {
 
 /* line 204, src/assets/scss/components/_components.buttons.scss */
 .btn-outline-brand-01 {
-  border-color: #7fa55a;
-  color: #581edc;
+  border-color: #e75c63;
+  color: #e75c63;
 }
 
 /* line 208, src/assets/scss/components/_components.buttons.scss */
 .btn-outline-brand-01:hover, .btn-outline-brand-01:focus, .btn-outline-brand-01:active {
-  background-color: #7fa55a;
-  border-color: #ffffff;
+  background-color: #e75c63;
+  border-color: #fff;
   color: #fff;
 }
 
@@ -23005,7 +23005,7 @@ footer a {
           transform: translateY(-10px);
   -webkit-box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125);
           box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125);
-  background-color: #7fa55a;
+  background-color: #ea5a61;
   color: #fff;
 }
 
