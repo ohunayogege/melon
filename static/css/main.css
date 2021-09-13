@@ -3011,7 +3011,7 @@ table {
 
 /* line 1, src/assets/scss/objects/_objects.custom-padding.scss */
 .ptb-100 {
-  padding: 100px 0;
+  padding: 10px 0;
 }
 
 /* line 4, src/assets/scss/objects/_objects.custom-padding.scss */
@@ -3139,7 +3139,7 @@ table {
 /* line 2, src/assets/scss/objects/_objects.background-image.scss */
 .bg-image {
   position: relative;
-  height: 600px;
+  height: 700px;
 }
 
 /* line 4, src/assets/scss/objects/_objects.background-image.scss */
@@ -3148,7 +3148,7 @@ table {
   height: 100%;
   top: 0;
   left: 0;
-  background-size: cover !important;
+  background-size: contain !important;
   background-position: 50% 50% !important;
   z-index: 0;
   transition: opacity .3s linear;
@@ -19038,7 +19038,7 @@ a.close.disabled {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
+  bottom: 40px;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
@@ -19047,6 +19047,9 @@ a.close.disabled {
   text-align: center;
 }
 
+.carousel-caption h3 {
+  font-size: 33px;
+}
 @-webkit-keyframes spinner-border {
   to {
     -webkit-transform: rotate(360deg);
@@ -20107,14 +20110,14 @@ footer a {
 
 /* line 141, src/assets/scss/components/_components.buttons.scss */
 .btn-brand-01 {
-  background-color: #581edc;
-  border-color: #581edc;
+  background-color: #e75c63;
+  border-color: #e75c63;
   color: #fff;
 }
 
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 .btn-brand-01:hover, .btn-brand-01:focus {
-  background-color: #4618af;
+  background-color: #7fa55a;
   border-color: #fff;
   color: #fff;
 }
