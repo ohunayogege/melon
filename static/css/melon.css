@@ -451,3 +451,8 @@ html[xmlns] .slides { display: block; }
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 }
+
+/* p.animate__animated {
+  animation-duration: 2.5s;
+  animation-iteration-count: initial;
+} */
